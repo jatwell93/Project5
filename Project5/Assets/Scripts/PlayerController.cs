@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     //use on trigger enter when creating actions around colliders with triggers
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Powerup"))
+        if (other.gameObject.CompareTag("Powerup"))
         {
             hasPowerup = true;
             Destroy(other.gameObject);

@@ -629,7 +629,7 @@ MonoBehaviour:
   enemiesCount: 0
   waveNumber: 1
   enemiesPrefab: {fileID: 2533137366051235649, guid: 790da02b9c8ed5c40ad047b8c9a26813, type: 3}
-  powerupsPrefabs: {fileID: 0}
+  powerupsPrefabs: {fileID: 4359455795060456817, guid: 7766ce2df26d9f64a8bcf290aa3838e3, type: 3}
 --- !u!1 &1895408530
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,7 +699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddc66e607e7925846b736e00ff92821b, type: 2}
+  - {fileID: 2100000, guid: e6e6f7a3c9f4839409af1eae15839382, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
